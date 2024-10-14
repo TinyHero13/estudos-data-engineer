@@ -10,7 +10,7 @@ Primeiro, precisamos instalar o uv. Você pode encontrar a [documentação compl
 
 ## Criando um Novo Projeto
 
-Para iniciar um novo projeto com o modelo do UV, execute o seguinte comando: `uv init novo_projeto`.
+Para iniciar um novo projeto com o modelo do uv, execute o seguinte comando: `uv init novo_projeto`.
 
 Se preferir, você pode iniciar diretamente no mesmo diretório utilizando apenas: `uv init`.
 
@@ -46,9 +46,9 @@ Se tudo estiver correto, você verá a tabela exibida no seu terminal.
 
 ## Gerenciando Dependências
 
-Com o UV, você não precisa criar um `requirements.txt` com `pip freeze`. O UV já gerencia as dependências automaticamente, armazenando-as no `pyproject.toml`, o que torna a publicação do projeto mais limpa e fácil para outros usuários.
+Com o uv, você não precisa criar um `requirements.txt` com `pip freeze`. O uv já gerencia as dependências automaticamente, armazenando-as no `pyproject.toml`, o que torna a publicação do projeto mais limpa e fácil para outros usuários.
 
-## Mais vantagens do UV
+## Mais vantagens do uv
 
 - 🚀 Uma única ferramenta que substitui pip, pip-tools, pipx, poetry, pyenv, virtualenv e mais.
 - ⚡️ 10-100 vezes mais rápido que o pip.
