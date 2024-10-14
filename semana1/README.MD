@@ -1,12 +1,12 @@
-# Utilizando o UV para Instalação de Bibliotecas
+# Utilizando o uv para Instalação de Bibliotecas
 
-## Por que usar o UV em vez do pip?
+## Por que usar o uv em vez do pip?
 
-O UV é um pacote desenvolvido em Rust que proporciona uma instalação rápida e eficiente de bibliotecas, superando a performance do pip em muitos casos.
+O uv é um pacote desenvolvido em Rust que proporciona uma instalação rápida e eficiente de bibliotecas, superando a performance do pip em muitos casos.
 
-## Instalando o UV
+## Instalando o uv
 
-Primeiro, precisamos instalar o UV. Você pode encontrar a [documentação completa](https://github.com/astral-sh/uv). A instalação pode ser feita utilizando `curl` no macOS ou Linux, PowerShell no Windows, ou ainda pelo pip: `pip install uv`.
+Primeiro, precisamos instalar o uv. Você pode encontrar a [documentação completa](https://github.com/astral-sh/uv). A instalação pode ser feita utilizando `curl` no macOS ou Linux, PowerShell no Windows, ou ainda pelo pip: `pip install uv`.
 
 ## Criando um Novo Projeto
 
@@ -48,7 +48,7 @@ Se tudo estiver correto, você verá a tabela exibida no seu terminal.
 
 Com o UV, você não precisa criar um `requirements.txt` com `pip freeze`. O UV já gerencia as dependências automaticamente, armazenando-as no `pyproject.toml`, o que torna a publicação do projeto mais limpa e fácil para outros usuários.
 
-## Recursos do UV
+## Mais vantagens do UV
 
 - 🚀 Uma única ferramenta que substitui pip, pip-tools, pipx, poetry, pyenv, virtualenv e mais.
 - ⚡️ 10-100 vezes mais rápido que o pip.

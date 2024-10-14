@@ -1,2 +1,0 @@
-## Tipagem no Python
-
